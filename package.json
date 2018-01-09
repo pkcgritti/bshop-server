@@ -1,0 +1,33 @@
+{
+  "name": "barbershop_server",
+  "version": "1.0.0",
+  "description": "Barbershop Server",
+  "main": "index.js",
+  "scripts": {
+    "app": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcos Cesar Gritti",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "bluebird": "^3.5.1",
+    "body-parser": "*",
+    "cookie-parser": "^1.4.1",
+    "cors": "^2.8.4",
+    "express": "*",
+    "express-mailer": "^0.3.1",
+    "express-session": "*",
+    "jade": "^1.11.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "passport": "*",
+    "passport-http": "*",
+    "passport-local": "*",
+    "rand-token": "^0.4.0",
+    "socket.io": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  }
+}
