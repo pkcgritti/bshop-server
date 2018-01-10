@@ -59,11 +59,7 @@ mailer.extend(app, {
   host: 'smtp.gmail.com',
   secureConnection: true,
   port: 465,
-  transportMethod: 'SMTP',
-  auth: {
-    user: 'cesargritti@gmail.com',
-    pass: 'vivwvomec010'
-  }
+  transportMethod: 'SMTP'
 })
 
 app.set('views', __dirname + '/views')
